@@ -23,9 +23,9 @@ article.post h1 {
 }
 article.post p.post-text:nth-child(1) {
     text-align: right;
-    letter-spacing: initial;
+    white-space: pre-wrap;
 }
 article.post p.post-text:nth-child(2) {
     text-align: justify;
-    word-spacing: 0px;
+    word-break: keep-all;
 }
