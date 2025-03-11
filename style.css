@@ -21,11 +21,11 @@ a {
 article.post h1 {
     text-align: center;
 }
-article.post p.post-text:nth-child(1) {
+article.post h1 + p.post-text {
     text-align: right;
     white-space: pre-wrap;
 }
-article.post p.post-text:nth-child(2) {
+:not(article.post h1 + p.post-text) {
     text-align: justify;
     word-break: keep-all;
 }
